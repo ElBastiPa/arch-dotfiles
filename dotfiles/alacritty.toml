@@ -1,0 +1,58 @@
+# Alacritty configuration file
+
+# Configuración de la fuente
+font:
+  normal:
+    family: "Cascadia Code"  # Cambia esto si usas otra fuente
+    style: Regular
+  bold:
+    family: "Cascadia Code"
+    style: Bold
+  italic:
+    family: "Cascadia Code"
+    style: Italic
+  size: 12.0  # Cambia el tamaño de la fuente aquí
+
+# Configuración de colores
+colors:
+  primary:
+    background: 'rgba(30, 30, 30, 0.9)'  # Color del fondo
+    foreground: '#c5c5c5'  # Color del texto
+
+  # Colores de la paleta
+  normal:
+    black:   '#1e1e1e'
+    red:     '#f44747'
+    green:   '#b5cea8'
+    yellow:  '#ffcc00'
+    blue:    '#569cd6'
+    magenta: '#c586e0'
+    cyan:    '#4ec9b0'
+    white:   '#d7d7d7'
+
+  bright:
+    black:   '#808080'
+    red:     '#f44747'
+    green:   '#b5cea8'
+    yellow:  '#ffcc00'
+    blue:    '#569cd6'
+    magenta: '#c586e0'
+    cyan:    '#4ec9b0'
+    white:   '#ffffff'
+
+# Ajustes de dimensiones de la ventana
+window:
+  dimensions:
+    columns: 80
+    lines: 24
+  padding:
+    x: 20
+    y: 20
+
+# Otras configuraciones
+cursor:
+  style: Block  # Estilo del cursor
+  blinking: true  # Habilitar parpadeo del cursor
+
+# Usar el modo de salida alternativo
+dynamic_title: true  # Permitir que el título de la ventana cambie dinámicamente
